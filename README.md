@@ -1,6 +1,6 @@
 # FANS: cosmic-web spirality and handedness
 
-Python analysis of **Filament-Arm Node Systems (FANS)**, including projected spirality and handedness, preferred-axis tests, results by arm multiplicity, and a 27-configuration robustness grid. 
+Python analysis of **Filament-Arm Node Systems (FANS)**, including projected spirality and handedness, preferred-axis tests, results by arm multiplicity, and a 27-configuration robustness grid. **v88.15 (5 November 2026)** updates the v88.14 defaults to 1000 bootstraps and Planck18 auxiliary node geometry.
 
 ## Installation
 
@@ -37,6 +37,27 @@ Store the reconstructed points, including knot-labelled points, in a **FITS bina
 The pipeline clusters nearby knot points into nodes. It needs the reconstruction fields above; a three-column node-position list is insufficient. SCMS reconstruction and input data are not bundled.
 
 ## Run
+
+### Chen only: quick start
+
+For the simplest start, place only `dr12_FMaps_full.txt` and `dr12_Fint.txt` in `data/`. Chen uses its own intersections as nodes, so no Carrón files or auxiliary SCMS FITS file are needed. Run the projected analysis, then the multiplicity analysis:
+
+```bash
+python scripts/run_spirality_pipeline.py \
+  --pipelines chen --outroot results --run-name chen_only \
+  --chen-fmaps data/dr12_FMaps_full.txt --chen-intersections data/dr12_Fint.txt \
+  --analysis-product fiducial --node-link-radius-mpc-h 10 --node-weight mean_density \
+  --summary-error-model bootstrap --summary-bootstrap-mode block \
+  --bootstrap-B 1000 --signflip-B 1000 --n-jobs 8 --no-make-gallery
+
+python scripts/analyze_fans_multiplicity.py \
+  --run-root results/chen_only --catalogs chen \
+  --bootstrap-B 1000 --null-B 1000
+```
+
+This uses the fiducial geometry and 1000 bootstraps. Results are in `results/chen_only/`, with multiplicity tables and plots in `referee_multiplicity/chen/`. Use a new `--run-name` to keep separate runs. This quick start covers projected statistics; the preferred-axis analysis and robustness grid are separate steps.
+
+### Chen and Carrón: full fiducial run
 
 ```bash
 python scripts/run_referee_revision.py fiducial \
