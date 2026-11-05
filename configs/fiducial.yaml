@@ -1,0 +1,49 @@
+# Paper fiducial FANS configuration.
+# This file is documentation-facing; the command-line scripts remain the source
+# of truth for an actual run.
+
+redshift:
+  z_min: 0.1
+  z_max: 0.6
+  zbin_edges: [0.1, 0.225, 0.35, 0.475, 0.6]
+
+auxiliary_node_geometry:
+  distance_source: planck18
+  cosmology: astropy.cosmology.Planck18
+  h: 0.6766
+  omega_m: 0.30966
+  fits_distance_units: mpc
+  shell_centre: mean_of_comoving_boundary_distances
+
+fans_geometry:
+  segment_length_mpc_h: 10.0
+  n_arm_segments: 3
+  node_link_radius_mpc_h: 10.0
+  arm_opening_deg: 35.0
+  edge_margin_mpc_h: 70.0
+  knot_cluster_radius_mpc_h: 5.0
+  min_points_per_arm_segment: 3
+  min_valid_arm_segments: 2
+  min_arms_node: 2
+
+robustness_grid:
+  segment_length_mpc_h: [7.5, 10.0, 12.5]
+  node_link_radius_mpc_h: [8.0, 10.0, 12.0]
+  arm_opening_deg: [30.0, 35.0, 40.0]
+  n_arm_segments: [3]
+
+summaries:
+  arm_summary_weight: n_segments
+  bootstrap_B: 1000
+  signflip_B: 1000
+  bootstrap_mode: block
+  bootstrap_nside: 16
+  projected_signflip_block_nside: 16
+
+extrinsic:
+  nside_scan: 32
+  bootstrap_B: 1000
+  nside_bootstrap: 16
+  signflip_null_B: 1000
+  signflip_null_mode: block
+  signflip_null_block_nside: 16

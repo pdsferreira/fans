@@ -1,0 +1,158 @@
+{
+  "font_size": 24,
+  "grid_figsize": [
+    15.6,
+    18.0
+  ],
+  "redshift_figsize": [
+    9.5,
+    7.0
+  ],
+  "grid_y_limits": {
+    "H_proj": [
+      -0.018,
+      0.014
+    ],
+    "A_sign": [
+      -0.032,
+      0.027
+    ],
+    "S_proj": [
+      0.18,
+      0.33
+    ]
+  },
+  "y_limit_policy": "expand",
+  "footprint_nside": 64,
+  "density_per_deg2": false,
+  "kde_samples": 700,
+  "histogram_bins": 20,
+  "panel_angular_upper_limits": {
+    "H_proj": 0.79,
+    "A_sign": 5.1,
+    "A_dip": 8.8,
+    "A_ax": 5.3,
+    "S_proj": 15.4
+  },
+  "delta_matrix_figsize": [
+    13.0,
+    12.2
+  ],
+  "delta_matrix_positive": "#cfe5f5",
+  "delta_matrix_negative": "#f5d3d0",
+  "delta_matrix_low_support": "#f0f0f0",
+  "delta_matrix_decimals": 4,
+  "delta_matrix_show_errors": true,
+  "delta_matrix_mark_95_interval": true,
+  "delta_matrix_versions": [
+    "sign",
+    "intensity"
+  ],
+  "delta_matrix_intensity_positive": "#79afd5",
+  "delta_matrix_intensity_negative": "#d77972",
+  "delta_matrix_intensity_vmax": null,
+  "transition_cmap": "viridis",
+  "transition_scale": "linear",
+  "transition_palette": "catalogue",
+  "transition_min_candidates": 1,
+  "transition_zero_colour": "#ededed",
+  "delta_matrix_row_label_x": 0.058,
+  "transition_count_boundaries": [
+    1,
+    10,
+    30,
+    100,
+    300,
+    600,
+    1000,
+    2000,
+    4000,
+    10000,
+    30000
+  ],
+  "transition_figsize": [
+    7.6,
+    6.0
+  ],
+  "multiplicity_before_after_figsize": [
+    17.8,
+    7.2
+  ],
+  "paper_panel_box_aspect": 0.55,
+  "paper_results_width": 14.0,
+  "paper_sample_width": 13.7,
+  "paper_sample_box_aspect": 0.7368421052631579,
+  "paper_sample_font_scale": 1.5,
+  "paper_panel_label_size": 18,
+  "paper_panel_tick_size": 16,
+  "paper_fraction_annotation_size": 11.5,
+  "paper_fraction_decimals": 1,
+  "paper_spirality_interval": "bootstrap_standard_error",
+  "paper_spirality_shared_limits": true,
+  "paper_spirality_upper_limit_deg": 19.1,
+  "paper_spirality_show_fixed_composition": false,
+  "paper_results_show_bin_edges": false,
+  "paper_results_legend_gap_inches": 0.8,
+  "paper_sample_text_increment": 1.1,
+  "paper_sample_heading_increment": 1.2,
+  "paper_sample_linewidth_all": 3.0,
+  "paper_sample_linewidth_conditioned": 2.5,
+  "paper_sample_legend_gap_inches": 1.12,
+  "transition_zero_hatch": "///",
+  "transition_vmax_by_catalogue": {
+    "carron": 8500.0,
+    "chen": 5000.0
+  },
+  "transition_ticks_by_catalogue": {
+    "carron": [
+      0,
+      2125,
+      4250,
+      6375,
+      8500
+    ],
+    "chen": [
+      0,
+      1250,
+      2500,
+      3750,
+      5000
+    ]
+  },
+  "transition_allow_colour_saturation": true,
+  "grid_angular_y_limits": {
+    "H_proj": [
+      -0.7,
+      0.52
+    ],
+    "A_sign": [
+      -2.2,
+      4.3
+    ],
+    "S_proj": [
+      9.1,
+      17.3
+    ]
+  },
+  "grid_angular_y_limit_policy": "strict",
+  "paper_sample_panel_letter_increment": 1.2,
+  "paper_sample_panel_legend_increment": 1.2,
+  "paper_sample_panel_fraction_increment": 1.045,
+  "paper_sample_panel_cells_match_ticks": true,
+  "paper_sample_panel_density_upper_limit": 11.5,
+  "paper_sample_panel_hide_density_zero": true,
+  "paper_sample_panel_frame_increment": 1.4,
+  "paper_sample_panel_legend_extra_gap_inches": 0.14,
+  "delta_matrix_intensity_figsize": [
+    13.0,
+    10.7
+  ],
+  "delta_matrix_intensity_hspace": 0.08,
+  "delta_matrix_intensity_wspace": 0.07,
+  "delta_matrix_intensity_share_xlabels": true,
+  "delta_matrix_intensity_colorbar_gap_inches": 0.22,
+  "delta_matrix_intensity_show_notes": false,
+  "delta_matrix_angular_vmax": 4.5,
+  "delta_matrix_angular_allow_colour_saturation": true,
+  "delta_matrix_angular_decimals": 2
+}
