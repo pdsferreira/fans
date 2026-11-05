@@ -1,0 +1,418 @@
+{
+  "package": "FANS spirality GitHub distribution",
+  "package_version": "0.88.15",
+  "prepared_date": "2026-11-05",
+  "date_timezone": "Asia/Shanghai",
+  "source_archives": [
+    {
+      "filename": "spirality_v88_14_matrix_format.zip",
+      "sha256": "8261648c2c5c7866321c57dc3d15231263fea907a5c02f7d03b7b6ab77235123",
+      "saved_at_utc": "2026-10-18T05:13:21.949858Z"
+    },
+    {
+      "filename": "spirality_v88_13_colourbar.zip",
+      "sha256": "fed95a85fd3ce268740c55db616a4901ef66bbb52b1430d87c4f11f7d5953a44",
+      "saved_at_utc": "2026-10-18T04:31:12.822242Z"
+    }
+  ],
+  "latest_recovered_source": "v88.14",
+  "v88_13_to_v88_14_changed_python_files": [
+    "spirality/__init__.py",
+    "spirality/publication_matrices.py"
+  ],
+  "v88_13_to_v88_14_scientific_algorithms_unchanged": true,
+  "python_file_comparison": [
+    {
+      "file": "scripts/analyze_fans_multiplicity.py",
+      "upstream_sha256": "12a134aaa106411ed6d267db656efd13d4f0687be2774f8562f8e6d6d411d52f",
+      "distribution_sha256": "bde8593995974c39a3ad308e0ee946a04193c74bd8262ae8f71018e203ec62d1",
+      "change": "1000-bootstrap default."
+    },
+    {
+      "file": "scripts/build_paper_products.py",
+      "upstream_sha256": "cb3f822fbdc3a835c2477d2c3a34ddb4ee1cdc286012b8079988eab9c6c44459",
+      "distribution_sha256": "cb3f822fbdc3a835c2477d2c3a34ddb4ee1cdc286012b8079988eab9c6c44459",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/check_plots_from_fits.py",
+      "upstream_sha256": "27ac357932d0ca95dfef355c63d97b60c5b6117c69bbc6f42d1773441cc2fa30",
+      "distribution_sha256": "27ac357932d0ca95dfef355c63d97b60c5b6117c69bbc6f42d1773441cc2fa30",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/consolidate_fans_fits.py",
+      "upstream_sha256": "7c544a2a5d39e8297c11a829cb54e9ed350e413cdf6eeea6b6c5e91246a11b34",
+      "distribution_sha256": "7c544a2a5d39e8297c11a829cb54e9ed350e413cdf6eeea6b6c5e91246a11b34",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/convert_delta_s_to_degrees.py",
+      "upstream_sha256": "a7089d4d39f541177e3b6f96ec45e97dac517c48ed23b0c02a27a1c29b555166",
+      "distribution_sha256": "a7089d4d39f541177e3b6f96ec45e97dac517c48ed23b0c02a27a1c29b555166",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/export_fans_fits.py",
+      "upstream_sha256": "ad44e0a6f21db392e65b6ed9e3a56d6eb51728e8b77961bdd6476372cc6045d3",
+      "distribution_sha256": "ad44e0a6f21db392e65b6ed9e3a56d6eb51728e8b77961bdd6476372cc6045d3",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/plot_extrinsic_axis_contours.py",
+      "upstream_sha256": "5ebd08f71c132847f35d98877920431ddaff9b5b98c3a9fbd2c16033b43850c6",
+      "distribution_sha256": "5ebd08f71c132847f35d98877920431ddaff9b5b98c3a9fbd2c16033b43850c6",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/plot_extrinsic_axis_contours_vector_kde.py",
+      "upstream_sha256": "c383c074eba6b14088388df8c9cc0763add0336f0e9020dbb48b2aa538a6c847",
+      "distribution_sha256": "c383c074eba6b14088388df8c9cc0763add0336f0e9020dbb48b2aa538a6c847",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/plot_multiplicity_grid.py",
+      "upstream_sha256": "122daeed5e67d8d68d423b9d77fc46e1fdeb96d2e506e2a699d01efb70e8abe2",
+      "distribution_sha256": "122daeed5e67d8d68d423b9d77fc46e1fdeb96d2e506e2a699d01efb70e8abe2",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/plot_selected_fans_panel.py",
+      "upstream_sha256": "470acf76605136b7ee68c5118525305b2fc288619dcd077b8891fc759d32f7e7",
+      "distribution_sha256": "470acf76605136b7ee68c5118525305b2fc288619dcd077b8891fc759d32f7e7",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/redraw_angular_matrices.py",
+      "upstream_sha256": "53af5dcdc57f27d8c924edd507d9421b46d969c8970c60d0adb175fa6901275f",
+      "distribution_sha256": "53af5dcdc57f27d8c924edd507d9421b46d969c8970c60d0adb175fa6901275f",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/refresh_publication_plots.py",
+      "upstream_sha256": "b1d3de28fbd41d37ec16c1ed9703277b55161f93d0964d2bb96790edd61b0e55",
+      "distribution_sha256": "b1d3de28fbd41d37ec16c1ed9703277b55161f93d0964d2bb96790edd61b0e55",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/run_extrinsic_spirality.py",
+      "upstream_sha256": "76697f98304a61b77cade698826866e44625f2dd8ffe4c392be5196a376052b1",
+      "distribution_sha256": "76697f98304a61b77cade698826866e44625f2dd8ffe4c392be5196a376052b1",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/run_referee_revision.py",
+      "upstream_sha256": "63cd3632eb527ca60f0e587ae943eb49cefa3332d3a0bf8cbef4e419eb9f12e2",
+      "distribution_sha256": "7215a40f2f987ecd531f4fa456c93efc9050ba6a610c26e04d04eda795b56853",
+      "change": "Generic input paths and 1000-bootstrap default."
+    },
+    {
+      "file": "scripts/run_spirality_pipeline.py",
+      "upstream_sha256": "c1235537d98c16fdf0887c350a540cc0d5d9b5f2684a84718e120dbbd6c8c895",
+      "distribution_sha256": "c1235537d98c16fdf0887c350a540cc0d5d9b5f2684a84718e120dbbd6c8c895",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/summarize_fans_counts.py",
+      "upstream_sha256": "6ec034e1a7609914a8048140f1c85825008e0304fe00cf4c313e4239df49fa61",
+      "distribution_sha256": "6ec034e1a7609914a8048140f1c85825008e0304fe00cf4c313e4239df49fa61",
+      "change": "byte-identical"
+    },
+    {
+      "file": "scripts/summarize_significance_tables.py",
+      "upstream_sha256": "84f62e281b18363ddc0c904e2d8a46d0aacca96580f80f0fabbae092f6951156",
+      "distribution_sha256": "84f62e281b18363ddc0c904e2d8a46d0aacca96580f80f0fabbae092f6951156",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/__init__.py",
+      "upstream_sha256": "cb2c6c3773d1d5e88790beece867cde563139dd7331afd9ee41368dde7f5825d",
+      "distribution_sha256": "a373df14dac666460ba459b1c807a93290c279a0e36df16813eb219d037fa8fb",
+      "change": "Version increment to 0.88.15."
+    },
+    {
+      "file": "spirality/angular_contrasts.py",
+      "upstream_sha256": "b21d68de72a15b0a1a64fd6666640b45f628c43b503827b069249e7ecd1b4459",
+      "distribution_sha256": "b21d68de72a15b0a1a64fd6666640b45f628c43b503827b069249e7ecd1b4459",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/angular_plot_refresh.py",
+      "upstream_sha256": "be937e9c1b94ee2f249205c80e06cf808adc02addfb918397b845d17b30a57e0",
+      "distribution_sha256": "be937e9c1b94ee2f249205c80e06cf808adc02addfb918397b845d17b30a57e0",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/carron_proxy_spirality.py",
+      "upstream_sha256": "68567f58d6f1affb01ed96fcb0c9e56519a284e046592a7fb58cc18e7698be4c",
+      "distribution_sha256": "4cadbcecc1c225fe9e4513619b5055211d97a2d83b76f03f2bd2c6e13ce9b6d9",
+      "change": "Planck18 auxiliary geometry and consistent shell matching/native-distance units."
+    },
+    {
+      "file": "spirality/chen_node_spirality.py",
+      "upstream_sha256": "a6d22c1791c9d30e039996c0f6f5de8feab5811fa6f6a2787c8d9ea1ee55ebc9",
+      "distribution_sha256": "a6d22c1791c9d30e039996c0f6f5de8feab5811fa6f6a2787c8d9ea1ee55ebc9",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/construction_audit.py",
+      "upstream_sha256": "7ebbf6b4a14d33f044c465cb9222b260b9dd446e24a032134452fdf5c5ead331",
+      "distribution_sha256": "7ebbf6b4a14d33f044c465cb9222b260b9dd446e24a032134452fdf5c5ead331",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/extrinsic_spirality.py",
+      "upstream_sha256": "9974bddbce5eb11b455b31558763021023530884f478db505c8bfef38aec1c5d",
+      "distribution_sha256": "c723ff6d4f904c92b8cc252211fb053a29454340675352c20b92fcabf2a46c7f",
+      "change": "1000-bootstrap defaults, including direct CLI and legacy plotting calls."
+    },
+    {
+      "file": "spirality/multiplicity.py",
+      "upstream_sha256": "ef61b332a3f4a166c366b34ee0c21703ce89b597192b33cded3a32ec251b08ef",
+      "distribution_sha256": "ac5a3d44c72b9aded31683efa70be7720c6ce6a78b478672452485e082c18287",
+      "change": "1000-bootstrap API default."
+    },
+    {
+      "file": "spirality/paper_footprints.py",
+      "upstream_sha256": "84ab1bc01822b818e84784c4c7959216c153dc4dad2a4c97497a26cb67ac5973",
+      "distribution_sha256": "84ab1bc01822b818e84784c4c7959216c153dc4dad2a4c97497a26cb67ac5973",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/paper_products.py",
+      "upstream_sha256": "8b08982a50251b0b09b0099315a6bdab6117b8c8e3767ba27d5db46fda67ae06",
+      "distribution_sha256": "8b08982a50251b0b09b0099315a6bdab6117b8c8e3767ba27d5db46fda67ae06",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/pipeline.py",
+      "upstream_sha256": "f0d8ab66b2e725d0e6e4fe2455b2f5edb719c3db5f0dcc24a7e0bf4dd49c8740",
+      "distribution_sha256": "e4e796d9446e05d6c16550c02718084309670eb4c8fabb3144daba476d2c83e5",
+      "change": "Generic input paths and 1000-bootstrap defaults for plotting summaries."
+    },
+    {
+      "file": "spirality/postprocess_chen_arm_spirality_zbins.py",
+      "upstream_sha256": "4b3e96683426cd263099bdecb98773204138e23706dd4070a9c313bad54ab813",
+      "distribution_sha256": "4b3e96683426cd263099bdecb98773204138e23706dd4070a9c313bad54ab813",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/provenance.py",
+      "upstream_sha256": "69d5ef29b56ddca9b0b04317701c2ec8bb33323ba7b426c4f283ca17c763f2eb",
+      "distribution_sha256": "69d5ef29b56ddca9b0b04317701c2ec8bb33323ba7b426c4f283ca17c763f2eb",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/publication_captions.py",
+      "upstream_sha256": "93813ab16a10287171f6fc1adbc25b5fa5caa3662e0b6637dccc97b5fcafd0af",
+      "distribution_sha256": "93813ab16a10287171f6fc1adbc25b5fa5caa3662e0b6637dccc97b5fcafd0af",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/publication_matrices.py",
+      "upstream_sha256": "7201ad4d4feea6920da3afc772c9df1c7520c3063a987754f632e9a267e2ef69",
+      "distribution_sha256": "7201ad4d4feea6920da3afc772c9df1c7520c3063a987754f632e9a267e2ef69",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/publication_panels.py",
+      "upstream_sha256": "131fff511c2d8f0885cdb2048f04852539e37d6d55a31a3ca13833770cf73feb",
+      "distribution_sha256": "131fff511c2d8f0885cdb2048f04852539e37d6d55a31a3ca13833770cf73feb",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/publication_redshift.py",
+      "upstream_sha256": "8a2b14481d97055abcaae52ab77368e599c8e936c052da743b155fe72cf04afd",
+      "distribution_sha256": "8a2b14481d97055abcaae52ab77368e599c8e936c052da743b155fe72cf04afd",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/publication_refresh.py",
+      "upstream_sha256": "f31ef1dad191ed894bc04f52e89cba14abfe1b9d863cf309e7ff338aa80403aa",
+      "distribution_sha256": "f31ef1dad191ed894bc04f52e89cba14abfe1b9d863cf309e7ff338aa80403aa",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/publication_style.py",
+      "upstream_sha256": "5ffacee8eff31c5e8a060ae1f2ac276b098e3a63490782f0270ed54c4b0ff3c4",
+      "distribution_sha256": "5ffacee8eff31c5e8a060ae1f2ac276b098e3a63490782f0270ed54c4b0ff3c4",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/publication_support.py",
+      "upstream_sha256": "57935dd410562c521f8456ed0c027ea534c748bec8c364fb01529640ab8626f6",
+      "distribution_sha256": "57935dd410562c521f8456ed0c027ea534c748bec8c364fb01529640ab8626f6",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/resampling.py",
+      "upstream_sha256": "5542b48dc47f72d28bccf610d322fcbc4147279853f5cecd365a6f01ea4e7553",
+      "distribution_sha256": "5542b48dc47f72d28bccf610d322fcbc4147279853f5cecd365a6f01ea4e7553",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/revision_plot_data.py",
+      "upstream_sha256": "aeed0ee48e91e9ffd58329d1039e279899b61305372be3b141e1f791431d2954",
+      "distribution_sha256": "aeed0ee48e91e9ffd58329d1039e279899b61305372be3b141e1f791431d2954",
+      "change": "byte-identical"
+    },
+    {
+      "file": "spirality/sconce_node_spirality.py",
+      "upstream_sha256": "9bfcc615518fe4bf6709705ccac280606f27d354ae9b293deaacfc550a2dcf5d",
+      "distribution_sha256": "3abe2983c60a04efef964a083956a35f4581f350f49291bde2c23390b6909ba8",
+      "change": "Generic input filename, Planck18 node geometry, and shared shell-distance policy."
+    },
+    {
+      "file": "spirality/selection.py",
+      "upstream_sha256": "8d036021425834c059dbfeafd4ea60914ec39e4585defe2d5116ba3606a5aa20",
+      "distribution_sha256": "8d036021425834c059dbfeafd4ea60914ec39e4585defe2d5116ba3606a5aa20",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_angular_colourbar_v88_13.py",
+      "upstream_sha256": "4b4937ea9a2dd3be6cf6ef1b21b0a3663b529b37e3b682fa28a08a62cfbc5857",
+      "distribution_sha256": "4b4937ea9a2dd3be6cf6ef1b21b0a3663b529b37e3b682fa28a08a62cfbc5857",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_angular_contrasts_v88_12.py",
+      "upstream_sha256": "707e6b349ec7f4e383007da83180f6b507d1a3f3d4395b318fcf5c738d7412d4",
+      "distribution_sha256": "707e6b349ec7f4e383007da83180f6b507d1a3f3d4395b318fcf5c738d7412d4",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_defaults_v88_15.py",
+      "upstream_sha256": null,
+      "distribution_sha256": "a6093d74d9a8d59278e30ab00f268fa6bf12418e123d1e125b543d535f271c48",
+      "change": "New numerical and CLI/default regression tests."
+    },
+    {
+      "file": "tests/test_matrix_format_v88_14.py",
+      "upstream_sha256": "4b295a8814024103edb6335a5b23e4090aa3fff8a0e739c72fb50c63466083b9",
+      "distribution_sha256": "4b295a8814024103edb6335a5b23e4090aa3fff8a0e739c72fb50c63466083b9",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_native_panels_v88_5.py",
+      "upstream_sha256": "9b73a2ac5ebbfd1485b2e0b6d46e645ae1e2c6bc1982f688dbe615e3b7a6a046",
+      "distribution_sha256": "9b73a2ac5ebbfd1485b2e0b6d46e645ae1e2c6bc1982f688dbe615e3b7a6a046",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_paper_products.py",
+      "upstream_sha256": "266f84855431256c51cad1fbfbef1f424e4dee7ce351f66c59e6594f0f12d072",
+      "distribution_sha256": "266f84855431256c51cad1fbfbef1f424e4dee7ce351f66c59e6594f0f12d072",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_plot_update_v88_4.py",
+      "upstream_sha256": "01e8bea0e9d7211743ef2e7d46cd9f88cc7027774eab2a083aa2252d928abbcb",
+      "distribution_sha256": "01e8bea0e9d7211743ef2e7d46cd9f88cc7027774eab2a083aa2252d928abbcb",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_publication_cleanup_v88_6.py",
+      "upstream_sha256": "2277f121277e6526c6242e97c0a7df14f2391476de18377ab9be73f2cda4c075",
+      "distribution_sha256": "2277f121277e6526c6242e97c0a7df14f2391476de18377ab9be73f2cda4c075",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_publication_update.py",
+      "upstream_sha256": "5734caff9d7fb986182067acb07b90dbd263654698bd111425fde845b4b11bda",
+      "distribution_sha256": "5734caff9d7fb986182067acb07b90dbd263654698bd111425fde845b4b11bda",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_publication_update_v88_10.py",
+      "upstream_sha256": "2ed77c3176c6cf65cec1edcc7a28a769ca467bda9eda23ec2dfc5a031b6517d7",
+      "distribution_sha256": "2ed77c3176c6cf65cec1edcc7a28a769ca467bda9eda23ec2dfc5a031b6517d7",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_publication_update_v88_11.py",
+      "upstream_sha256": "0ffabbba8ea99a36969bf3d13f29750d0c6716291e056e5bebb1c44622874789",
+      "distribution_sha256": "0ffabbba8ea99a36969bf3d13f29750d0c6716291e056e5bebb1c44622874789",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_publication_update_v88_7.py",
+      "upstream_sha256": "ea6b44aebd4ef6e9cfbcac9fec1853787d90e05139214ca8e3ba6ac80a412e65",
+      "distribution_sha256": "ea6b44aebd4ef6e9cfbcac9fec1853787d90e05139214ca8e3ba6ac80a412e65",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_publication_update_v88_8.py",
+      "upstream_sha256": "3a375ff2ba0e75026813e76f9b0dd613920b2416edc8c418ebd917881030d548",
+      "distribution_sha256": "3a375ff2ba0e75026813e76f9b0dd613920b2416edc8c418ebd917881030d548",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_publication_update_v88_9.py",
+      "upstream_sha256": "74e2263ce3fe4acbcdf9ff7305a738ff8a0e3d0c3640231939461014b8aef261",
+      "distribution_sha256": "74e2263ce3fe4acbcdf9ff7305a738ff8a0e3d0c3640231939461014b8aef261",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tests/test_revision.py",
+      "upstream_sha256": "e016255e63c189de9acd2d879a07260c5c2ec9f9ee22c37122ef6df5333d87ca",
+      "distribution_sha256": "e016255e63c189de9acd2d879a07260c5c2ec9f9ee22c37122ef6df5333d87ca",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tools/compare_code_archives.py",
+      "upstream_sha256": "511e8467ab77062b5cd6849ab68af131024e3d0fe007b1b26614cf2c775c62e9",
+      "distribution_sha256": "511e8467ab77062b5cd6849ab68af131024e3d0fe007b1b26614cf2c775c62e9",
+      "change": "byte-identical"
+    },
+    {
+      "file": "tools/compare_reference_outputs.py",
+      "upstream_sha256": "f11492a37164de76d60da9be6926cd2284656f772a82f486bd924d4b9a2554ae",
+      "distribution_sha256": "f11492a37164de76d60da9be6926cd2284656f772a82f486bd924d4b9a2554ae",
+      "change": "byte-identical"
+    }
+  ],
+  "python_files_byte_identical": 49,
+  "saved_multiplicity_metadata": {
+    "source_archive": "fans_paper_final_plot_selection.zip",
+    "catalogues": [
+      "chen",
+      "carron"
+    ],
+    "B": 500,
+    "null_B": 1000,
+    "nside": 16
+  },
+  "survey_data_bundled": false,
+  "new_survey_inference_performed": false,
+  "derived_from": "v88.14",
+  "author_confirmed_final_paper_bootstrap_B": 1000,
+  "distribution_defaults": {
+    "bootstrap_B": 1000,
+    "recommended_launcher_null_B": 1000,
+    "auxiliary_node_cosmology": "astropy.cosmology.Planck18",
+    "auxiliary_distance_source": "planck18",
+    "native_fits_distances_used_by_default": false,
+    "shell_redshift_boundaries_preserved": true
+  },
+  "publication_urls": {
+    "apjl": "https://iopscience.iop.org/article/10.3847/2041-8213/aeb802",
+    "arxiv": "https://arxiv.org/abs/2609.07792"
+  },
+  "validation": {
+    "tests_passed": 42,
+    "tests_failed": 0,
+    "tests_skipped": 0,
+    "new_numerical_and_cli_cases": 9
+  },
+  "changed_or_added_python_files": [
+    "scripts/analyze_fans_multiplicity.py",
+    "scripts/run_referee_revision.py",
+    "spirality/__init__.py",
+    "spirality/carron_proxy_spirality.py",
+    "spirality/extrinsic_spirality.py",
+    "spirality/multiplicity.py",
+    "spirality/pipeline.py",
+    "spirality/sconce_node_spirality.py",
+    "tests/test_defaults_v88_15.py"
+  ]
+}
