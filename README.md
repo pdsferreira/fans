@@ -1,6 +1,6 @@
 # FANS: cosmic-web spirality and handedness
 
-Python analysis of **Filament-Arm Node Systems (FANS)**, including projected spirality and handedness, preferred-axis tests, results by arm multiplicity, and a 27-configuration robustness grid. **v88.15 (5 November 2026)** updates the v88.14 defaults to 1000 bootstraps and Planck18 auxiliary node geometry.
+Python analysis of **Filament-Arm Node Systems (FANS)**, including projected spirality and handedness, preferred-axis tests, results by arm multiplicity, and a 27-configuration robustness grid. 
 
 ## Installation
 
